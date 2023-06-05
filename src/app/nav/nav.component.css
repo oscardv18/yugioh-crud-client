@@ -1,0 +1,13 @@
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin: 0 25px;
+  transition: all ease 0.45s;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}

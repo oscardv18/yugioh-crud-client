@@ -1,0 +1,15 @@
+section {
+  padding: 0 15%;
+}
+
+.home-img {
+  /* position: relative;   */
+  width: 50%;
+  height: auto;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
