@@ -1,0 +1,33 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-container .details-text h2 {
+  font-family: YugiFont;
+  font-size: 2rem;
+}
+
+.details-container .details-text {
+  padding: 20px 20px 0 20px;
+  border-radius: 3rem;
+  box-shadow: 2px 2px 2px 2px #8b8b8b;
+}
+
+.details-container .details-text h2 .f-important-txt {
+  background-image: var(--blue-subtitle-bg);
+  background-image: var(--blue-subtitle-gradient);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.details-container .details-text h2 .s-important-txt {
+  background-image: var(--sub-title-color);
+  background-image: var(--sub-title-gradient);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
