@@ -1,7 +1,37 @@
-:root {
-  --bg-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
+.container {
+  background: var(--bg-color);
+  background: var(--bg-gradient);
 }
 
-.container {
-  background-color: var(--bg-color);
+.header {
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 15%;
+  transition: all ease 0.45s;
+}
+
+/* app-home-section {
+  padding: 0 5%;
+} */
+
+.section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-details {
+  margin: 3.5rem 0 3.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
 }
