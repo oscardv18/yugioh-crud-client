@@ -1,0 +1,50 @@
+.all-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.all-container .all-img img {
+  width: 400px;
+  height: auto;
+}
+
+.all-container .all-text h2 {
+  font-family: YugiFont;
+  font-size: 2rem;
+}
+
+.all-container .all-text h2 .f-important-txt {
+  background-image: var(--blue-subtitle-bg);
+  background-image: var(--blue-subtitle-gradient);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.all-container .all-text h2 .s-important-txt {
+  background-image: var(--sub-title-color);
+  background-image: var(--sub-title-gradient);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.all-container .all-text a {
+  background: var(--button-bg);
+  background: var(--button-gradient);
+  color: var(--p-color-in-bg);
+  padding: 5px 1rem 5px 1rem;
+  border-radius: 25px;
+  font-size: var(--text-font);
+  font-weight: 600;
+  transition: all 0.6s ease-in-out;
+  text-align: center;
+}
+
+.all-container .all-text a:hover {
+  transform: translateY(5px);
+  background: transparent;
+  color: var(--button-bg);
+  border: 1px solid var(--button-bg);
+}

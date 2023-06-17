@@ -6,6 +6,11 @@
   justify-content: center;
 }
 
+.details-container .details-img img {
+  width: 550px;
+  height: auto;
+}
+
 .details-container .details-text h2 {
   font-family: YugiFont;
   font-size: 2rem;
