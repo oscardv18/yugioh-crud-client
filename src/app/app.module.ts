@@ -1,3 +1,6 @@
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,6 +13,7 @@ import { HomeSectionComponent } from './home-section/home-section.component';
 import { DeckPromComponent } from './deck-prom/deck-prom.component';
 import { CardsDetailsComponent } from './cards-details/cards-details.component';
 import { CardsAllComponent } from './cards-all/cards-all.component';
+import { LoginDialogComponent } from './login-dialog/login-dialog.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +23,18 @@ import { CardsAllComponent } from './cards-all/cards-all.component';
     HomeSectionComponent,
     DeckPromComponent,
     CardsDetailsComponent,
-    CardsAllComponent
+    CardsAllComponent,
+    LoginDialogComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatDialogModule,
+    MatFormFieldModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
