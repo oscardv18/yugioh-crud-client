@@ -1,15 +1,5 @@
 <ul class="navbar">
   <li *ngFor="let link of links">
     <a href="#">{{ link }}</a>
-    <button mat-button (click)="openLoginDialog()">Iniciar Sesión</button>
-    <!-- <ng-container *ngSwitch="link">
-      <ng-container *ngSwitchCase="'Login'">
-      </ng-container>
-      <ng-container *ngSwitchCase="'Register'">
-        <a href="#">Hola</a>
-      </ng-container>
-      <ng-container *ngSwitchDefault>
-      </ng-container>
-    </ng-container> -->
   </li>
 </ul>
