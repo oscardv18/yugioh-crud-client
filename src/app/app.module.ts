@@ -14,6 +14,8 @@ import { DeckPromComponent } from './deck-prom/deck-prom.component';
 import { CardsDetailsComponent } from './cards-details/cards-details.component';
 import { CardsAllComponent } from './cards-all/cards-all.component';
 import { LoginDialogComponent } from './login-dialog/login-dialog.component';
+import { LoginComponent } from './login/login.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { LoginDialogComponent } from './login-dialog/login-dialog.component';
     CardsDetailsComponent,
     CardsAllComponent,
     LoginDialogComponent,
+    LoginComponent,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,9 @@
-<div class="container">
-  <app-header class="header"></app-header>
-  <app-home-section class="section"></app-home-section>
-</div>
-<section class="app-details">
-  <app-deck-prom></app-deck-prom>
-  <app-cards-details></app-cards-details>
-  <app-cards-all></app-cards-all>
-</section>
+<app-header class="header"></app-header>
+<!-- <div class="container">
+  <app-home-section
+    *ngIf="currentRoute !== '/'"
+    class="section"
+  ></app-home-section>
+</div> -->
+
+<router-outlet></router-outlet>
